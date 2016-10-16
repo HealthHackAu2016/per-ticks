@@ -1,0 +1,37 @@
+  {% include "head.html" %}
+  <div>
+    <div class="w-container">
+      <div class="content-container">
+        <h3 class="main-heading">Update Report</h3>
+        <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+        <div class="report-form-div">
+          <div class="form">
+            <div class="wrapper_skinny">
+              <form>
+                <div class="field">
+                  <label class="field_label">Date Bitten:</label>
+                  <input type="date" placeholder="Date you were bitten"/ required>
+                </div>
+                <div class="field">
+                  <label class="field_label">Email:</label>
+                  <input type="email" placeholder="Enter your email"/ required>
+                </div>
+                <div class="field">
+                  <label class="field_label">Phone (optional):</label>
+                  <input type="number" placeholder="Enter your phone number"/>
+                </div>
+                <div class="field">
+                  <label class="field_label">Symptoms:</label>
+                  <textarea placeholder="Enter your symptoms separated with commas"></textarea>
+                </div>
+
+                <div class="actions">
+                  <input type="submit" class="button button_highlight">
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  {% include "foot.html" %}

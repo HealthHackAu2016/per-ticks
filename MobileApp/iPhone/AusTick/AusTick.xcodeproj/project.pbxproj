@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12EE9A5A1DB1C69F007A3E31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9A591DB1C69F007A3E31 /* main.m */; };
+		12EE9A5D1DB1C69F007A3E31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9A5C1DB1C69F007A3E31 /* AppDelegate.m */; };
+		12EE9A631DB1C69F007A3E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EE9A611DB1C69F007A3E31 /* Main.storyboard */; };
+		12EE9A661DB1C69F007A3E31 /* AusTick.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9A641DB1C69F007A3E31 /* AusTick.xcdatamodeld */; };
+		12EE9A681DB1C69F007A3E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12EE9A671DB1C69F007A3E31 /* Assets.xcassets */; };
+		12EE9A6B1DB1C69F007A3E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12EE9A691DB1C69F007A3E31 /* LaunchScreen.storyboard */; };
+		12EE9A761DB1C69F007A3E31 /* AusTickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9A751DB1C69F007A3E31 /* AusTickTests.m */; };
+		12EE9A811DB1C69F007A3E31 /* AusTickUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9A801DB1C69F007A3E31 /* AusTickUITests.m */; };
+		12EE9A941DB1CB29007A3E31 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9A931DB1CB29007A3E31 /* MainViewController.m */; };
+		12EE9A971DB1CB3A007A3E31 /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9A961DB1CB3A007A3E31 /* ReportViewController.m */; };
+		12EE9A9A1DB1CB5D007A3E31 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9A991DB1CB5D007A3E31 /* MapViewController.m */; };
+		12EE9A9D1DB1CB7D007A3E31 /* UpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9A9C1DB1CB7D007A3E31 /* UpdateViewController.m */; };
+		12EE9AA11DB1CBCE007A3E31 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9AA01DB1CBCE007A3E31 /* InformationViewController.m */; };
+		12EE9AA31DB1CFE6007A3E31 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12EE9AA21DB1CFE6007A3E31 /* MapKit.framework */; };
+		12EE9AA61DB2072C007A3E31 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9AA51DB2072C007A3E31 /* SignInViewController.m */; };
+		12EE9AA91DB21376007A3E31 /* TickAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 12EE9AA81DB21376007A3E31 /* TickAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12EE9A721DB1C69F007A3E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12EE9A4D1DB1C69F007A3E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12EE9A541DB1C69F007A3E31;
+			remoteInfo = AusTick;
+		};
+		12EE9A7D1DB1C69F007A3E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12EE9A4D1DB1C69F007A3E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12EE9A541DB1C69F007A3E31;
+			remoteInfo = AusTick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12EE9A551DB1C69F007A3E31 /* AusTick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AusTick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EE9A591DB1C69F007A3E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12EE9A5B1DB1C69F007A3E31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12EE9A5C1DB1C69F007A3E31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12EE9A621DB1C69F007A3E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12EE9A651DB1C69F007A3E31 /* AusTick.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AusTick.xcdatamodel; sourceTree = "<group>"; };
+		12EE9A671DB1C69F007A3E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12EE9A6A1DB1C69F007A3E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12EE9A6C1DB1C69F007A3E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EE9A711DB1C69F007A3E31 /* AusTickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AusTickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EE9A751DB1C69F007A3E31 /* AusTickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AusTickTests.m; sourceTree = "<group>"; };
+		12EE9A771DB1C69F007A3E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EE9A7C1DB1C69F007A3E31 /* AusTickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AusTickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12EE9A801DB1C69F007A3E31 /* AusTickUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AusTickUITests.m; sourceTree = "<group>"; };
+		12EE9A821DB1C69F007A3E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12EE9A921DB1CB29007A3E31 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		12EE9A931DB1CB29007A3E31 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		12EE9A951DB1CB3A007A3E31 /* ReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		12EE9A961DB1CB3A007A3E31 /* ReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		12EE9A981DB1CB5D007A3E31 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		12EE9A991DB1CB5D007A3E31 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		12EE9A9B1DB1CB7D007A3E31 /* UpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateViewController.h; sourceTree = "<group>"; };
+		12EE9A9C1DB1CB7D007A3E31 /* UpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateViewController.m; sourceTree = "<group>"; };
+		12EE9A9F1DB1CBCE007A3E31 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		12EE9AA01DB1CBCE007A3E31 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
+		12EE9AA21DB1CFE6007A3E31 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		12EE9AA41DB2072C007A3E31 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		12EE9AA51DB2072C007A3E31 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		12EE9AA71DB21376007A3E31 /* TickAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TickAnnotation.h; sourceTree = "<group>"; };
+		12EE9AA81DB21376007A3E31 /* TickAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TickAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12EE9A521DB1C69F007A3E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EE9AA31DB1CFE6007A3E31 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EE9A6E1DB1C69F007A3E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EE9A791DB1C69F007A3E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12EE9A4C1DB1C69F007A3E31 = {
+			isa = PBXGroup;
+			children = (
+				12EE9AA21DB1CFE6007A3E31 /* MapKit.framework */,
+				12EE9A571DB1C69F007A3E31 /* AusTick */,
+				12EE9A741DB1C69F007A3E31 /* AusTickTests */,
+				12EE9A7F1DB1C69F007A3E31 /* AusTickUITests */,
+				12EE9A561DB1C69F007A3E31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12EE9A561DB1C69F007A3E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12EE9A551DB1C69F007A3E31 /* AusTick.app */,
+				12EE9A711DB1C69F007A3E31 /* AusTickTests.xctest */,
+				12EE9A7C1DB1C69F007A3E31 /* AusTickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12EE9A571DB1C69F007A3E31 /* AusTick */ = {
+			isa = PBXGroup;
+			children = (
+				12EE9A9E1DB1CBC0007A3E31 /* InfromationView */,
+				12EE9A911DB1CA99007A3E31 /* UpdateView */,
+				12EE9A901DB1CA87007A3E31 /* MapView */,
+				12EE9A8F1DB1CA7C007A3E31 /* ReportView */,
+				12EE9A8E1DB1CA53007A3E31 /* MainView */,
+				12EE9A5B1DB1C69F007A3E31 /* AppDelegate.h */,
+				12EE9A5C1DB1C69F007A3E31 /* AppDelegate.m */,
+				12EE9A611DB1C69F007A3E31 /* Main.storyboard */,
+				12EE9A671DB1C69F007A3E31 /* Assets.xcassets */,
+				12EE9A691DB1C69F007A3E31 /* LaunchScreen.storyboard */,
+				12EE9A6C1DB1C69F007A3E31 /* Info.plist */,
+				12EE9A641DB1C69F007A3E31 /* AusTick.xcdatamodeld */,
+				12EE9A581DB1C69F007A3E31 /* Supporting Files */,
+			);
+			path = AusTick;
+			sourceTree = "<group>";
+		};
+		12EE9A581DB1C69F007A3E31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12EE9A591DB1C69F007A3E31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12EE9A741DB1C69F007A3E31 /* AusTickTests */ = {
+			isa = PBXGroup;
+			children = (
+				12EE9A751DB1C69F007A3E31 /* AusTickTests.m */,
+				12EE9A771DB1C69F007A3E31 /* Info.plist */,
+			);
+			path = AusTickTests;
+			sourceTree = "<group>";
+		};
+		12EE9A7F1DB1C69F007A3E31 /* AusTickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12EE9A801DB1C69F007A3E31 /* AusTickUITests.m */,
+				12EE9A821DB1C69F007A3E31 /* Info.plist */,
+			);
+			path = AusTickUITests;
+			sourceTree = "<group>";
+		};
+		12EE9A8E1DB1CA53007A3E31 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				12EE9A921DB1CB29007A3E31 /* MainViewController.h */,
+				12EE9A931DB1CB29007A3E31 /* MainViewController.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		12EE9A8F1DB1CA7C007A3E31 /* ReportView */ = {
+			isa = PBXGroup;
+			children = (
+				12EE9A951DB1CB3A007A3E31 /* ReportViewController.h */,
+				12EE9A961DB1CB3A007A3E31 /* ReportViewController.m */,
+				12EE9AA71DB21376007A3E31 /* TickAnnotation.h */,
+				12EE9AA81DB21376007A3E31 /* TickAnnotation.m */,
+			);
+			name = ReportView;
+			sourceTree = "<group>";
+		};
+		12EE9A901DB1CA87007A3E31 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				12EE9A981DB1CB5D007A3E31 /* MapViewController.h */,
+				12EE9A991DB1CB5D007A3E31 /* MapViewController.m */,
+			);
+			name = MapView;
+			sourceTree = "<group>";
+		};
+		12EE9A911DB1CA99007A3E31 /* UpdateView */ = {
+			isa = PBXGroup;
+			children = (
+				12EE9A9B1DB1CB7D007A3E31 /* UpdateViewController.h */,
+				12EE9A9C1DB1CB7D007A3E31 /* UpdateViewController.m */,
+				12EE9AA41DB2072C007A3E31 /* SignInViewController.h */,
+				12EE9AA51DB2072C007A3E31 /* SignInViewController.m */,
+			);
+			name = UpdateView;
+			sourceTree = "<group>";
+		};
+		12EE9A9E1DB1CBC0007A3E31 /* InfromationView */ = {
+			isa = PBXGroup;
+			children = (
+				12EE9A9F1DB1CBCE007A3E31 /* InformationViewController.h */,
+				12EE9AA01DB1CBCE007A3E31 /* InformationViewController.m */,
+			);
+			name = InfromationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12EE9A541DB1C69F007A3E31 /* AusTick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12EE9A851DB1C69F007A3E31 /* Build configuration list for PBXNativeTarget "AusTick" */;
+			buildPhases = (
+				12EE9A511DB1C69F007A3E31 /* Sources */,
+				12EE9A521DB1C69F007A3E31 /* Frameworks */,
+				12EE9A531DB1C69F007A3E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AusTick;
+			productName = AusTick;
+			productReference = 12EE9A551DB1C69F007A3E31 /* AusTick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12EE9A701DB1C69F007A3E31 /* AusTickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12EE9A881DB1C69F007A3E31 /* Build configuration list for PBXNativeTarget "AusTickTests" */;
+			buildPhases = (
+				12EE9A6D1DB1C69F007A3E31 /* Sources */,
+				12EE9A6E1DB1C69F007A3E31 /* Frameworks */,
+				12EE9A6F1DB1C69F007A3E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12EE9A731DB1C69F007A3E31 /* PBXTargetDependency */,
+			);
+			name = AusTickTests;
+			productName = AusTickTests;
+			productReference = 12EE9A711DB1C69F007A3E31 /* AusTickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12EE9A7B1DB1C69F007A3E31 /* AusTickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12EE9A8B1DB1C69F007A3E31 /* Build configuration list for PBXNativeTarget "AusTickUITests" */;
+			buildPhases = (
+				12EE9A781DB1C69F007A3E31 /* Sources */,
+				12EE9A791DB1C69F007A3E31 /* Frameworks */,
+				12EE9A7A1DB1C69F007A3E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12EE9A7E1DB1C69F007A3E31 /* PBXTargetDependency */,
+			);
+			name = AusTickUITests;
+			productName = AusTickUITests;
+			productReference = 12EE9A7C1DB1C69F007A3E31 /* AusTickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12EE9A4D1DB1C69F007A3E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MurdochUniversity;
+				TargetAttributes = {
+					12EE9A541DB1C69F007A3E31 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					12EE9A701DB1C69F007A3E31 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 12EE9A541DB1C69F007A3E31;
+					};
+					12EE9A7B1DB1C69F007A3E31 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 12EE9A541DB1C69F007A3E31;
+					};
+				};
+			};
+			buildConfigurationList = 12EE9A501DB1C69F007A3E31 /* Build configuration list for PBXProject "AusTick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12EE9A4C1DB1C69F007A3E31;
+			productRefGroup = 12EE9A561DB1C69F007A3E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12EE9A541DB1C69F007A3E31 /* AusTick */,
+				12EE9A701DB1C69F007A3E31 /* AusTickTests */,
+				12EE9A7B1DB1C69F007A3E31 /* AusTickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12EE9A531DB1C69F007A3E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EE9A6B1DB1C69F007A3E31 /* LaunchScreen.storyboard in Resources */,
+				12EE9A681DB1C69F007A3E31 /* Assets.xcassets in Resources */,
+				12EE9A631DB1C69F007A3E31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EE9A6F1DB1C69F007A3E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EE9A7A1DB1C69F007A3E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12EE9A511DB1C69F007A3E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EE9A971DB1CB3A007A3E31 /* ReportViewController.m in Sources */,
+				12EE9A661DB1C69F007A3E31 /* AusTick.xcdatamodeld in Sources */,
+				12EE9A5D1DB1C69F007A3E31 /* AppDelegate.m in Sources */,
+				12EE9AA91DB21376007A3E31 /* TickAnnotation.m in Sources */,
+				12EE9AA11DB1CBCE007A3E31 /* InformationViewController.m in Sources */,
+				12EE9A9D1DB1CB7D007A3E31 /* UpdateViewController.m in Sources */,
+				12EE9A9A1DB1CB5D007A3E31 /* MapViewController.m in Sources */,
+				12EE9A5A1DB1C69F007A3E31 /* main.m in Sources */,
+				12EE9AA61DB2072C007A3E31 /* SignInViewController.m in Sources */,
+				12EE9A941DB1CB29007A3E31 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EE9A6D1DB1C69F007A3E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EE9A761DB1C69F007A3E31 /* AusTickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12EE9A781DB1C69F007A3E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12EE9A811DB1C69F007A3E31 /* AusTickUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12EE9A731DB1C69F007A3E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12EE9A541DB1C69F007A3E31 /* AusTick */;
+			targetProxy = 12EE9A721DB1C69F007A3E31 /* PBXContainerItemProxy */;
+		};
+		12EE9A7E1DB1C69F007A3E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12EE9A541DB1C69F007A3E31 /* AusTick */;
+			targetProxy = 12EE9A7D1DB1C69F007A3E31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12EE9A611DB1C69F007A3E31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12EE9A621DB1C69F007A3E31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12EE9A691DB1C69F007A3E31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12EE9A6A1DB1C69F007A3E31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12EE9A831DB1C69F007A3E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12EE9A841DB1C69F007A3E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12EE9A861DB1C69F007A3E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AusTick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MU.AusTick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12EE9A871DB1C69F007A3E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AusTick/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MU.AusTick;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12EE9A891DB1C69F007A3E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AusTickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MU.AusTickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AusTick.app/AusTick";
+			};
+			name = Debug;
+		};
+		12EE9A8A1DB1C69F007A3E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AusTickTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MU.AusTickTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AusTick.app/AusTick";
+			};
+			name = Release;
+		};
+		12EE9A8C1DB1C69F007A3E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AusTickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MU.AusTickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AusTick;
+			};
+			name = Debug;
+		};
+		12EE9A8D1DB1C69F007A3E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AusTickUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MU.AusTickUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AusTick;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12EE9A501DB1C69F007A3E31 /* Build configuration list for PBXProject "AusTick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EE9A831DB1C69F007A3E31 /* Debug */,
+				12EE9A841DB1C69F007A3E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12EE9A851DB1C69F007A3E31 /* Build configuration list for PBXNativeTarget "AusTick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EE9A861DB1C69F007A3E31 /* Debug */,
+				12EE9A871DB1C69F007A3E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12EE9A881DB1C69F007A3E31 /* Build configuration list for PBXNativeTarget "AusTickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EE9A891DB1C69F007A3E31 /* Debug */,
+				12EE9A8A1DB1C69F007A3E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12EE9A8B1DB1C69F007A3E31 /* Build configuration list for PBXNativeTarget "AusTickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12EE9A8C1DB1C69F007A3E31 /* Debug */,
+				12EE9A8D1DB1C69F007A3E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12EE9A641DB1C69F007A3E31 /* AusTick.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12EE9A651DB1C69F007A3E31 /* AusTick.xcdatamodel */,
+			);
+			currentVersion = 12EE9A651DB1C69F007A3E31 /* AusTick.xcdatamodel */;
+			path = AusTick.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12EE9A4D1DB1C69F007A3E31 /* Project object */;
+}

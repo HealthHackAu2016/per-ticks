@@ -1,0 +1,37 @@
+  {% include "head.html" %}
+  <div>
+    <div class="w-container">
+      <div class="content-container">
+        <h3 class="main-heading">Researcher Area</h3>
+        <p class="paragraph">Please see the map below for a 'birds-eye view' of the tick submissions.</p>
+        <div class="map-div">
+          <div id="map" style="width: 100%; height: 400px;"></div>
+            <script>
+              function initMap() {
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 3,
+                  center: {lat: -28.024, lng: 140.887}
+                });
+
+                var markers = [
+                {% for report in biteList %}
+                new google.maps.Marker({position: {lat: {{ report.lat }}, lng: {{ report.lon }}{% verbatim %}}}{% endverbatim %}),
+                {% endfor %}
+                ]
+
+                var markerCluster = new MarkerClusterer(map, markers,
+                    {imagePath: '/static/cluster/m'});
+              }
+            </script>
+            <script src="/static/cluster/markerclusterer.js"></script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ mapsApiKey }}&callback=initMap"></script>
+        </div>
+        <div class="download-info-div">
+          <p class="download-info paragraph">For further analysis, please click the link below to download data.</p>
+      </div><a class="download-button form-submit-button w-button" href="/csv-download">Download Data</a>
+      <br />
+      <a class="download-button form-submit-button w-button" href="/api/send_reminders">Send reminders</a>
+      </div>
+    </div>
+  </div>
+  {% include "foot.html" %}

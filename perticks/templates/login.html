@@ -1,0 +1,22 @@
+  {% include "head.html" %}
+  <div class="login-section-login-page">
+    <div class="w-container">
+      <div class="content-container">
+        <h3 class="main-heading">Researcher Login</h3>
+        <p class="paragraph">Please log in if you are a researcher.</p>
+        <div class="login_form">
+          <form action="/api/login" method="POST">
+              {% csrf_token %}
+              <input type="hidden" name="redirect" value="/research/">
+              <label class="field_label">Unique ID:</label>
+              <input type="text" name="user_id" placeholder="Enter your unique ID"/ required>
+              <label class="field_label">Password:</label>
+              <input type="password" name="user_pass" placeholder="Enter your passcode"/ required>
+              <div class="actions">
+                  <input type="submit" class="button button_highlight">
+              </div>
+            </form>
+      </div>
+    </div>
+  </div>
+  {% include "foot.html" %}

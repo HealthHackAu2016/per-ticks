@@ -1,0 +1,7 @@
+*.pyc
+*.sqlite3
+local_*
+/perticks/austick.sublime-workspace
+/perticks/austick.sublime-project
+
+.DS_Store

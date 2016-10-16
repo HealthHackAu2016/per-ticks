@@ -1,0 +1,90 @@
+  {% include "head.html" %}
+  <div>
+    <div class="w-container">
+      <div class="content-container">
+        <h3 class="main-heading">Report Tick Bite</h3>
+        <p class="paragraph">Use this page to report a tick bite. If you'd like to know more, please visit the 'Tick Removal' page.</p>
+        <div class="report-form-div">
+          <div class="form">
+            <div>
+              <form action="/api/submit" method="POST">
+                  <input type="hidden" name="followup" value="false">
+                  <input type="hidden" name="prevbite" value="false">
+                <div class="field">
+                  <label class="field_label">Date Bitten:</label>
+                  <input type="date" name="date" value="16/10/2016"/ required>
+                </div>
+                <div class="field">
+                  <label class="field_label">Email:</label>
+                  <input type="email" name="email" placeholder="Enter your email"/ required>
+                </div>
+                <div class="field">
+                  <label class="field_label">Phone (optional - required if you wish to follow up with a doctor):</label>
+                  <input type="number" name="phone" placeholder="Enter your phone number"/>
+                </div>
+                <div class="field">
+                  <label class="field_label">Location where you were bitten:</label>
+                  <div id="map" style="width: 100%; height: 400px;"></div>
+                  <input type="hidden" id="lat" name="lat" readonly="yes"><input type="hidden" id="lon" name="lon" readonly="yes">
+                </div>
+                <div class="field">
+                  <label class="field_label">Symptoms (optional):</label>
+                  <textarea name="symptoms" placeholder="Enter your symptoms separated with commas"></textarea>
+                </div>
+                <div class="field">
+                  <label class="field_label">Have you been bitten previously:</label>
+                  <input type="checkbox" name="prevbite" ></input>
+                </div>
+                <div class="field">
+                  <label class="field_label">Would you mind our researchers contacting you:</label>
+                  <input type="checkbox" name="followup"></input>
+                </div>
+
+                <div class="actions">
+                  <input type="submit" class="button button_highlight">
+                </div>
+              </form>
+            </div>
+            <script type="text/javascript">
+            // Sourced from http://thisinterestsme.com/google-maps-api-location-picker-example/
+            var map;
+            var marker = false;
+
+            function initMap() {
+                var centerOfMap = new google.maps.LatLng(-28.024, 140.887);
+
+                var options = {
+                  center: centerOfMap,
+                  zoom: 3
+                };
+
+                map = new google.maps.Map(document.getElementById('map'), options);
+
+                google.maps.event.addListener(map, 'click', function(event) {
+                    var clickedLocation = event.latLng;
+                    if(marker === false){
+                        marker = new google.maps.Marker({
+                            position: clickedLocation,
+                            map: map,
+                            draggable: true
+                        });
+                        google.maps.event.addListener(marker, 'dragend', function(event){
+                            var currentLocation = marker.getPosition();
+                            document.getElementById('lat').value = currentLocation.lat(); //latitude
+                            document.getElementById('lon').value = currentLocation.lng(); //longitude
+                        });
+                    } else{
+                        marker.setPosition(clickedLocation);
+                    }
+                    var currentLocation = marker.getPosition();
+                    document.getElementById('lat').value = currentLocation.lat(); //latitude
+                    document.getElementById('lon').value = currentLocation.lng(); //longitude
+                });
+            }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ mapsApiKey }}&callback=initMap"></script>
+          </div>
+      </div>
+    </div>
+  </div>
+  {% include "foot.html" %}
